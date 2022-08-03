@@ -15,7 +15,7 @@ public class BowUtils {
 
         ItemStack bow = new ItemStack(Material.BOW, 1);
         ItemMeta bowMeta = bow.getItemMeta();
-        bowMeta.setDisplayName(ChatColor.GREEN + TeleportBow.getPlugin().getConfig().getString("bowname"));
+        bowMeta.setDisplayName(ChatColor.GREEN + TeleportBow.getPlugin(TeleportBow.class).getConfig().getString("bowname"));
         ArrayList lore = new ArrayList<>();
         lore.add("Teleport Bow");
         bowMeta.setLore(lore);

@@ -20,7 +20,7 @@ public class GiveCommand implements CommandExecutor {
 
         if (sender instanceof Player p){
 
-            if (p.hasPermission(tpbow.givebow)){
+            if (p.hasPermission("tpbow.givebow")){
                 if (args.length == 0){
 
                     ItemStack bow = BowUtils.createTeleportBow();
