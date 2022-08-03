@@ -1,0 +1,11 @@
+name: TeleportBow
+version: '${project.version}'
+main: ml.maxht.teleportbow.TeleportBow
+api-version: 1.19
+authors: [ Maxhe ]
+description: TeleportBow
+website: maxht.ml
+commands:
+  givebow:
+    description: Gives a player a teleport bow
+    usage: /<command> [playername]
