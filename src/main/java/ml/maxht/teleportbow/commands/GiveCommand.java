@@ -1,6 +1,5 @@
 package ml.maxht.teleportbow.commands;
 
-import ml.maxht.teleportbow.TeleportBow;
 import ml.maxht.teleportbow.utility.BowUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -11,7 +10,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-import java.lang.annotation.Target;
 
 public class GiveCommand implements CommandExecutor {
 
