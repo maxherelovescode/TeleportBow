@@ -45,7 +45,6 @@ public class TeleportBowListener implements Listener {
         if (TeleportBow.getPlugin(TeleportBow.class).getConfig().getBoolean("playerjoinenabled") == true){
             Player p = e.getPlayer();
             if (p.hasPlayedBefore() == false) {
-                Thread.sleep(4000);
                 p.getInventory().addItem(BowUtils.createTeleportBow());
                 p.getInventory().addItem(new ItemStack(Material.ARROW, 1));
                 p.sendMessage(ChatColor.YELLOW + "Here's A Free Teleport Bow. Don't Lose it! You won't get another");
