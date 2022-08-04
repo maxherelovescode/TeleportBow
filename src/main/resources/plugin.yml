@@ -9,3 +9,10 @@ commands:
   givebow:
     description: Gives a player a teleport bow
     usage: /<command> [playername]
+    aliases:
+      - teleportbo
+      - teleportbow
+      - bowtp
+      - tpbow
+      - shootandtp
+

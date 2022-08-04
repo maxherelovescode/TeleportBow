@@ -1,2 +1,4 @@
 # Change the name of the teleport bow
 bowname: 'Teleport Bow'
+# Enable The Player Join Event
+playerjoinenabled: 'true'

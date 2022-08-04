@@ -43,6 +43,8 @@ public class GiveCommand implements CommandExecutor {
                     target.sendMessage(ChatColor.GREEN + "You have been given a teleport bow by " + ChatColor.YELLOW + p.getDisplayName());
 
                 }
+            }else {
+                p.sendMessage(ChatColor.RED + "You do not have the permission to use this command.");
             }
 
         }
