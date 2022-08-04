@@ -4,7 +4,7 @@ A bow that teleports you places
 Get Intellj idea.
 <br>Press wacko run button
 ## How to use
-Put in plugins folder on spigot or paper server
+If you dont know how to add a plugin how do you know what one is?
 ## FAQ
 ### Only joking no one asked
 
