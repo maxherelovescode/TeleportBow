@@ -5,6 +5,10 @@ Get Intellj idea.
 <br>Press wacko run button
 ## How to use
 If you dont know how to add a plugin how do you know what one is?
+### No But Seriously
+I would recommend using a paper server because it is best. <br>
+DO NOT use a Bukkit server It will NOT work. If anything use a spigot server. <br>
+But i would 100% recommend paper <br>
 ## FAQ
 ### Only joking no one asked
 
