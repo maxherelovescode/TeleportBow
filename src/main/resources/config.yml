@@ -6,12 +6,30 @@
 #    |____| \___  >____/\___  >   __/ \____/|__|   |__|    |______  /\____/ \/\_/
 #    \/          \/|__|                                \/
 # Plugin By Max
-
+# Colour Codes:
+# Black (black)	&0	
+# Dark Blue (dark_blue)	&1	
+#  Dark Green (dark_green)	&2	
+#  Dark Aqua (dark_aqua)	&3	
+#  Dark Red (dark_red)	&4	
+#  Dark Purple (dark_purple)	&5	
+#  Gold (gold)	&6	
+#  Gray (gray)	&7	
+#  Dark Gray (dark_gray)	&8	
+#  Blue (blue)	&9	
+#  Green (green)	&a	
+#  Aqua (aqua)	&b	
+#  Red (red)	&c	
+#  Light Purple (light_purple)	&d	
+#  Yellow (yellow)	&e	
+#  White (white)	&f	
 
 # Change the name of the teleport bow
-bowname: 'Teleport Bow'
+bowname: '&f[&eTeleport&aBow&f]'
 # Enable The Player Join Event
 # Gives player a bow if it's their first time
 playerjoinenabled: 'true'
 # Message when teleported
-teleportmessage: 'Swoosh'
+teleportmessage: '&aSwoosh'
+# Description of the bow
+bowdesc: '&6Teleports you places'

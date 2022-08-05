@@ -15,11 +15,12 @@ public class BowUtils {
 
         ItemStack bow = new ItemStack(Material.BOW, 1);
         ItemMeta bowMeta = bow.getItemMeta();
-        bowMeta.setDisplayName(ChatColor.GREEN + TeleportBow.getPlugin(TeleportBow.class).getConfig().getString("bowname"));
+        bowMeta.setDisplayName(TeleportBow.getPlugin(TeleportBow.class).getConfig().getString("bowname"));
         ArrayList lore = new ArrayList<>();
-        lore.add("Teleport Bow");
+        lore.add(TeleportBow.getPlugin(TeleportBow.class).getConfig().getString("bowdesc"));
         bowMeta.setLore(lore);
         bowMeta.addEnchant(Enchantment.ARROW_INFINITE, 1, true);
+        bowMeta.addEnchant(Enchantment.DURABILITY, 1000000, true)
         bow.setItemMeta(bowMeta);
         return bow;
 
