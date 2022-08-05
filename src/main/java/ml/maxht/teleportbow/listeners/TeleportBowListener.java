@@ -1,5 +1,5 @@
 package ml.maxht.teleportbow.listeners;
-
+// Bukkit/Spigot Imports
 import ml.maxht.teleportbow.TeleportBow;
 import ml.maxht.teleportbow.utility.BowUtils;
 import org.bukkit.ChatColor;
@@ -12,7 +12,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.ProjectileHitEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.inventory.ItemStack;
-
+// Java Imports
 import java.util.concurrent.TimeUnit;
 
 public class TeleportBowListener implements Listener {

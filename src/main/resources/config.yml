@@ -1,4 +1,15 @@
+#
+#  ___________    .__                               __    __________
+#    \__    ___/___ |  |   ____ ______   ____________/  |_  \______   \ ______  _  __
+#    |    |_/ __ \|  | _/ __ \\____ \ /  _ \_  __ \   __\  |    |  _//  _ \ \/ \/ /
+#    |    |\  ___/|  |_\  ___/|  |_> >  <_> )  | \/|  |    |    |   (  <_> )     /
+#    |____| \___  >____/\___  >   __/ \____/|__|   |__|    |______  /\____/ \/\_/
+#    \/          \/|__|                                \/
+# Plugin By Max
+
+
 # Change the name of the teleport bow
 bowname: 'Teleport Bow'
 # Enable The Player Join Event
+# Gives player a bow if it's their first time
 playerjoinenabled: 'true'
