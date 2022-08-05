@@ -5,7 +5,14 @@
 #    |    |\  ___/|  |_\  ___/|  |_> >  <_> )  | \/|  |    |    |   (  <_> )     /
 #    |____| \___  >____/\___  >   __/ \____/|__|   |__|    |______  /\____/ \/\_/
 #    \/          \/|__|                                \/
+# Teleport Bow
+#
 # Plugin By Max
+#
+#
+#
+#
+#
 # Colour Codes:
 # Black (black)	&0	
 # Dark Blue (dark_blue)	&1	
@@ -23,7 +30,10 @@
 #  Light Purple (light_purple)	&d	
 #  Yellow (yellow)	&e	
 #  White (white)	&f	
-
+#
+#
+#
+#
 # Change the name of the teleport bow
 bowname: '&f[&eTeleport&aBow&f]'
 # Enable The Player Join Event
