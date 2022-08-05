@@ -28,7 +28,7 @@ public class TeleportBowListener implements Listener {
                 Location location = e.getEntity().getLocation();
                 p.teleport(location);
                 e.getEntity().remove();
-                p.sendMessage(ChatColor.GREEN + "Teleport Successful");
+                p.sendMessage(ChatColor.GREEN + TeleportBow.getPlugin(TeleportBow.class).getConfig().getString("teleportmessage"));
                 p.playSound(p, Sound.ENTITY_DRAGON_FIREBALL_EXPLODE, 1.0f, 1.0f);
 
             }

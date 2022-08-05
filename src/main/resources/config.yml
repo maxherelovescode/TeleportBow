@@ -13,3 +13,5 @@ bowname: 'Teleport Bow'
 # Enable The Player Join Event
 # Gives player a bow if it's their first time
 playerjoinenabled: 'true'
+# Message when teleported
+teleportmessage: 'Swoosh'
