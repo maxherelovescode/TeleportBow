@@ -23,12 +23,12 @@ public class TeleportBowListener implements Listener {
         if (e.getEntity().getShooter() instanceof Player p) {
 
             ItemStack shotBow = p.getInventory().getItemInMainHand();
-            if (shotBow.getItemMeta().getDisplayName().equalsIgnoreCase(ChatColor.translateAlternateColorCodes() + getPlugin(TeleportBow.class).getConfig().getString("bowname"))) {
+            if (shotBow.getItemMeta().getDisplayName().equalsIgnoreCase(ChatColor.translateAlternateColorCodes('&', TeleportBow.getPlugin(TeleportBow.class).getConfig().getString("bowname")))) {
 
                 Location location = e.getEntity().getLocation();
                 p.teleport(location);
                 e.getEntity().remove();
-                p.sendMessage(ChatColor.translateAlternateColorCodes() + TeleportBow.getPlugin(TeleportBow.class).getConfig().getString("teleportmessage"));
+                p.sendMessage(ChatColor.translateAlternateColorCodes('&', TeleportBow.getPlugin(TeleportBow.class).getConfig().getString("teleportmessage")));
                 p.playSound(p, Sound.ENTITY_DRAGON_FIREBALL_EXPLODE, 1.0f, 1.0f);
 
             }
